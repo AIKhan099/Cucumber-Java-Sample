@@ -1,0 +1,17 @@
+Create Maven Project:
+ For that: go to file-new-other-maven project-check 'create simple project'-group-id-Artifact-Id-Finish:
+ Select working set: deselect all first and then create a new set and add newly created project in that set.
+ Adding cucumber dependencies: Go to the following link : https://mvnrepository.com/artifact/io.cucumber/cucumber-java/7.14.0
+ copy the dependencies and mention it in pom.xml
+ Write features files in src/test/resources
+ write stepdefinitions in src/test/java
+ Add Selenium dependencies in pom
+ 
+ TestRunner class not present error:
+ Right click on project -> Run as -> Maven clean
+ Right click on project -> Maven -> Update Project
+ 
+ POM:
+ 
+ Hooks
+ 
